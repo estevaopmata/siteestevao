@@ -1,0 +1,21 @@
+.nave ul li {
+    display: inline-block;
+    margin-right: 10%;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #070F18;
+    text-decoration: none;
+    font-family: poppins;
+    cursor: pointer;
+    transition: 0.6s;
+}
+body {
+    background-color:black;
+    background-image: url(./wallpaper.png);
+    background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+

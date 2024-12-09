@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+    <title>TEC IFMT</title>
+</head>
+
+<body>
+    <div class="nave">
+        <ul>
+            <li><a href="navegacao.html">Home</a></li>
+            <li><a href="conteudo.html" target="_blank">Conteúdo</a></li>
+            <!-- seção de video-->
+            <div id="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/KSweG8uvIJ4?si=w2Joi1E9q8Rhrvvp"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <!-- seção texto de video-->
+                <div id="titulovideo">
+
+                    <h1>
+                        Marcos Almeida - Sê Valente
+                    </h1>
+
+                    <p id="textovideo">
+                        "Eu leio Rookmaaker, você Jean-Paul Sartre.
+                        A cidade foi tomada pelos homens.
+                        Na cidade dos homens tem gente que consegue ler, mas os outros estão
+                        néscios pra Ti.
+                        Eu canto Keith Green, você canta o que?
+                        A cidade está cheia de sons.
+                        Na cidade dos homens tem gente que consegue ouvir, mas os outros estão
+                        surdos pra Ti.
+                        Vem jogando tudo pra fora.
+                        A verdade apressa minha hora.
+                        Vem revela a vida que é nova.
+                        Abre os meus olhos agora.
+                        Eu fico com a escola de Rembrandt você no dadaísmo de Berlim.
+                        A cidade está cheia de tinta.
+                        Na cidade dos homens tem gente que consegue ver, mas os outros estão
+                        cegos pra Ti.
+                        Eu monto o paradoxo no palco. Você anda zombando da Cruz.
+                        A cidade está cheia de atores.
+                        Na cidade dos homens tem gente que consegue dizer, mas os outros estão
+                        mudos pra Ti.
+                        Vem jogando tudo pra fora.
+                        A verdade apressa minha hora.
+                        Vem revela a vida que é nova.
+                        Abre os meus olhos agora.
+                        Toda vez que procuro pra mim algo pra ler, ouvir, olhar e dizer, Senhor sabe o que
+                        eu quero.
+
+                        Não me furto a certeza: és a Vida que eu quero."
+                    </p>
+
+                </div>
+            </div>
+
+            <!-- seção de carrosel-->
+
+            <div id="carrossel">
+
+                <h1> Mais de 23.000 pessoas viram a musica</h1>
+
+                <!--divisão dos cards-->
+                <div id="cards">
+                    <img id="setaesquerda" onclick="deslizarparaesquerda()" class="seta" src="setaesquerda.svg">
+
+                    <img id="leo1" src="leo1.png" class="card" alt="leo1">
+
+                    <img id="leo2" src="leo2.png" class="card" alt="leo2">
+
+                    <img id="leo3" src="leo3.png" class="card" alt="leo3">
+
+                    <img id="setadireita" onclick="deslizarparadireita()" class="seta" src="setadireita.svg">
+                </div>
+            </div>
+
+            <!--Link Do Javascript-->
+
+            <script src="index.js"></script>
+
+</body>
+
+</html>
